@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Nassim Taghipour: full-stack web developer working on AI integrations with LLMs and MCP, based in Tübingen, Germany">
+  <img src="./assets/header.svg" width="100%" alt="Nassim Taghipour: senior full-stack and AI engineer working on AI integrations with LLMs and MCP, based in Tübingen, Germany">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ## About me
 
-I'm a software engineer for web development, front end and back end, with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and I taught web development for almost three years.
+I'm a senior full-stack and AI engineer with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and I taught web development for almost three years.
 
 Since last year my work also covers AI: I connect web applications to language models and help my team put AI to practical use.
 
