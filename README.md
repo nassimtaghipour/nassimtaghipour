@@ -10,9 +10,9 @@
 
 ## About me
 
-I'm a senior full-stack and AI engineer with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and I taught web development for almost three years.
+I'm a senior full-stack and AI engineer with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and today I develop the web applications of the Max Planck Institute for Intelligent Systems.
 
-Since last year my work also covers AI: I connect web applications to language models and help my team put AI to practical use.
+Since 2025 I have also worked as an AI solutions developer alongside that role. I set up the team's AI assistant and build custom AI agents, train colleagues to use them, and connect our web applications directly to large language models (LLMs) so that end users get their work done faster.
 
 ## AI work
 
