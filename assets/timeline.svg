@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">Career timeline</title>
+  <desc id="desc">2010 Pars Fanavaran, 2013 Tehran Institute of Technology, 2016 MobinNet Telecom, 2018 Behpardakht Mellat, 2019 DFA Corporation, 2020 Max Planck Institute for Intelligent Systems, now AI integrations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="0.8" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .y { font-size: 19px; font-weight: 800; }
+    .o { font-size: 14px; font-weight: 600; fill: #f8fafc; }
+    .r { font-size: 12.5px; fill: #cbd5e1; }
+    .track { stroke: #334155; stroke-width: 4; stroke-linecap: round; }
+    .draw { stroke: url(#line); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 860; stroke-dashoffset: 860; animation: draw 9s ease-in-out infinite; }
+    .stem { stroke: #475569; stroke-width: 1.5; stroke-dasharray: 3 4; }
+    .n { transform-box: fill-box; transform-origin: center; animation: pop 9s ease-in-out infinite; }
+    .n2 { animation-delay: .45s; } .n3 { animation-delay: .9s; } .n4 { animation-delay: 1.35s; }
+    .n5 { animation-delay: 1.8s; } .n6 { animation-delay: 2.25s; } .n7 { animation-delay: 2.7s; }
+    .halo { transform-box: fill-box; transform-origin: center; animation: halo 2.4s ease-out infinite; }
+    @keyframes draw { 0% { stroke-dashoffset: 860; } 35%, 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 860; } }
+    @keyframes pop { 0%, 100% { transform: scale(1); } 6% { transform: scale(1.7); } 14% { transform: scale(1); } }
+    @keyframes halo { from { transform: scale(1); opacity: .6; } to { transform: scale(2.6); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .draw { stroke-dashoffset: 0; } }
+  </style>
+
+  <rect width="1000" height="250" rx="22" fill="url(#bg)"/>
+
+  <line class="track" x1="70" y1="125" x2="930" y2="125"/>
+  <line class="draw" x1="70" y1="125" x2="930" y2="125"/>
+
+  <g>
+    <line class="stem" x1="70" y1="125" x2="70" y2="150"/>
+    <line class="stem" x1="213" y1="125" x2="213" y2="100"/>
+    <line class="stem" x1="357" y1="125" x2="357" y2="150"/>
+    <line class="stem" x1="500" y1="125" x2="500" y2="100"/>
+    <line class="stem" x1="643" y1="125" x2="643" y2="150"/>
+    <line class="stem" x1="787" y1="125" x2="787" y2="100"/>
+    <line class="stem" x1="930" y1="125" x2="930" y2="150"/>
+  </g>
+
+  <circle class="n" cx="70" cy="125" r="8" fill="#22d3ee"/>
+  <circle class="n n2" cx="213" cy="125" r="8" fill="#38bdf8"/>
+  <circle class="n n3" cx="357" cy="125" r="8" fill="#818cf8"/>
+  <circle class="n n4" cx="500" cy="125" r="8" fill="#a78bfa"/>
+  <circle class="n n5" cx="643" cy="125" r="8" fill="#e879f9"/>
+  <circle class="n n6" cx="787" cy="125" r="8" fill="#f472b6"/>
+  <circle class="halo" cx="930" cy="125" r="9" fill="#fbbf24"/>
+  <circle class="n n7" cx="930" cy="125" r="9" fill="#fbbf24"/>
+
+  <g>
+    <text class="y" x="80" y="175" fill="#22d3ee">2010</text>
+    <text class="o" x="80" y="196">Pars Fanavaran</text>
+    <text class="r" x="80" y="214">Full-stack · ASP.NET</text>
+  </g>
+  <g>
+    <text class="y" x="213" y="48" fill="#38bdf8">2013</text>
+    <text class="o" x="213" y="69">Tehran Inst. of Technology</text>
+    <text class="r" x="213" y="87">Teaching web development</text>
+  </g>
+  <g>
+    <text class="y" x="357" y="175" fill="#818cf8">2016</text>
+    <text class="o" x="357" y="196">MobinNet Telecom</text>
+    <text class="r" x="357" y="214">Front end · telecom</text>
+  </g>
+  <g>
+    <text class="y" x="500" y="48" fill="#a78bfa">2018</text>
+    <text class="o" x="500" y="69">Behpardakht Mellat</text>
+    <text class="r" x="500" y="87">Front end · payments</text>
+  </g>
+  <g>
+    <text class="y" x="643" y="175" fill="#e879f9">2019</text>
+    <text class="o" x="643" y="196">DFA Corporation</text>
+    <text class="r" x="643" y="214">Full-stack · core banking</text>
+  </g>
+  <g>
+    <text class="y" x="787" y="48" fill="#f472b6">2020</text>
+    <text class="o" x="787" y="69">MPI for Intelligent Systems</text>
+    <text class="r" x="787" y="87">Full-stack · research</text>
+  </g>
+  <g>
+    <text class="y" x="915" y="175" fill="#fbbf24">Now</text>
+    <text class="o" x="915" y="196">AI integrations</text>
+    <text class="r" x="915" y="214">LLMs · MCP · agents</text>
+  </g>
+</svg>

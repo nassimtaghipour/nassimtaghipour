@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Nassim Taghipour</title>
+  <desc id="desc">Full-stack web developer working on AI integrations with LLMs and MCP, based in Tübingen, Germany.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop class="bg1" offset="0" stop-color="#0f172a"/>
+      <stop class="bg2" offset="0.55" stop-color="#312e81"/>
+      <stop class="bg3" offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop class="n1" offset="0" stop-color="#67e8f9"/>
+      <stop class="n2" offset="0.5" stop-color="#c4b5fd"/>
+      <stop class="n3" offset="1" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <clipPath id="card">
+      <rect width="1000" height="280" rx="22"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .hello { font-size: 15px; font-weight: 600; letter-spacing: 4px; fill: #67e8f9; }
+    .name { font-size: 58px; font-weight: 800; fill: url(#name); }
+    .sub { font-size: 24px; font-weight: 500; fill: #e2e8f0; opacity: 0; animation: rotate 12s ease-in-out infinite backwards; }
+    .s2 { animation-delay: 4s; }
+    .s3 { animation-delay: 8s; }
+    .meta { font-size: 15px; fill: #cbd5e1; }
+    .bar { fill: #67e8f9; animation: blink 1.2s steps(2, start) infinite; }
+    .ai { font-size: 17px; font-weight: 800; fill: #0f172a; text-anchor: middle; }
+
+    .bg1 { animation: bg1 16s ease-in-out infinite alternate; }
+    .bg2 { animation: bg2 16s ease-in-out infinite alternate; }
+    .bg3 { animation: bg3 16s ease-in-out infinite alternate; }
+    .n1 { animation: n1 8s ease-in-out infinite alternate; }
+    .n2 { animation: n2 8s ease-in-out infinite alternate; }
+    .n3 { animation: n3 8s ease-in-out infinite alternate; }
+
+    .orb { animation: drift 14s ease-in-out infinite alternate; }
+    .o2 { animation-duration: 18s; animation-direction: alternate-reverse; }
+    .o3 { animation-duration: 22s; }
+
+    .links path { stroke-dasharray: 2 10; stroke-linecap: round; animation: flow 3s linear infinite; }
+    .node { transform-box: fill-box; transform-origin: center; animation: pulse 3.6s ease-in-out infinite; }
+    .d1 { animation-delay: .4s; } .d2 { animation-delay: .8s; } .d3 { animation-delay: 1.2s; }
+    .d4 { animation-delay: 1.6s; } .d5 { animation-delay: 2s; } .d6 { animation-delay: 2.4s; }
+    .halo { transform-box: fill-box; transform-origin: center; animation: halo 3s ease-out infinite; }
+
+    @keyframes rotate {
+      0% { opacity: 0; transform: translateY(12px); }
+      4%, 29% { opacity: 1; transform: translateY(0); }
+      33%, 100% { opacity: 0; transform: translateY(-12px); }
+    }
+    @keyframes blink { 0% { opacity: 1; } 100% { opacity: .15; } }
+    @keyframes bg1 { to { stop-color: #1e1b4b; } }
+    @keyframes bg2 { to { stop-color: #6d28d9; } }
+    @keyframes bg3 { to { stop-color: #be185d; } }
+    @keyframes n1 { to { stop-color: #f9a8d4; } }
+    @keyframes n2 { to { stop-color: #67e8f9; } }
+    @keyframes n3 { to { stop-color: #fcd34d; } }
+    @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(60px, 24px); } }
+    @keyframes flow { to { stroke-dashoffset: -24; } }
+    @keyframes pulse { 0%, 100% { transform: scale(1); opacity: .85; } 50% { transform: scale(1.45); opacity: 1; } }
+    @keyframes halo { from { transform: scale(1); opacity: .55; } to { transform: scale(2.3); opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .s1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <circle class="orb" cx="150" cy="20" r="120" fill="#22d3ee" opacity=".30" filter="url(#blur)"/>
+    <circle class="orb o2" cx="560" cy="270" r="130" fill="#a78bfa" opacity=".35" filter="url(#blur)"/>
+    <circle class="orb o3" cx="900" cy="40" r="110" fill="#f472b6" opacity=".28" filter="url(#blur)"/>
+
+    <g class="links" stroke="#c7d2fe" stroke-opacity=".7" stroke-width="2" fill="none">
+      <path d="M670 80 L760 45"/>
+      <path d="M760 45 L860 75"/>
+      <path d="M860 75 L940 140"/>
+      <path d="M860 75 L835 150"/>
+      <path d="M760 45 L735 140"/>
+      <path d="M670 80 L735 140"/>
+      <path d="M735 140 L835 150"/>
+      <path d="M940 140 L835 150"/>
+      <path d="M735 140 L780 220"/>
+      <path d="M780 220 L835 150"/>
+      <path d="M900 225 L835 150"/>
+      <path d="M940 140 L900 225"/>
+    </g>
+
+    <circle class="node" cx="670" cy="80" r="7" fill="#67e8f9"/>
+    <circle class="node d1" cx="760" cy="45" r="6" fill="#c4b5fd"/>
+    <circle class="node d2" cx="860" cy="75" r="8" fill="#f9a8d4"/>
+    <circle class="node d3" cx="940" cy="140" r="6" fill="#fcd34d"/>
+    <circle class="node d4" cx="735" cy="140" r="8" fill="#a78bfa"/>
+    <circle class="node d5" cx="780" cy="220" r="6" fill="#67e8f9"/>
+    <circle class="node d6" cx="900" cy="225" r="7" fill="#f9a8d4"/>
+
+    <circle class="halo" cx="835" cy="150" r="22" fill="#67e8f9"/>
+    <circle cx="835" cy="150" r="22" fill="#ecfeff"/>
+    <text class="ai" x="835" y="156">AI</text>
+
+    <text class="hello" x="56" y="78">HELLO, I'M</text>
+    <text class="name" x="54" y="140">Nassim Taghipour</text>
+
+    <rect class="bar" x="56" y="165" width="4" height="26" rx="2"/>
+    <text class="sub s1" x="72" y="186">Full-stack web developer</text>
+    <text class="sub s2" x="72" y="186">AI integrations with LLMs and MCP</text>
+    <text class="sub s3" x="72" y="186">LibreChat, team agents and AI workshops</text>
+
+    <text class="meta" x="56" y="236">Tübingen, Germany  ·  Building for the web since 2010</text>
+  </g>
+</svg>

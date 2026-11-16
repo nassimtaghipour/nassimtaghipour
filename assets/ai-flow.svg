@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
+  <title id="title">How I connect web applications to AI</title>
+  <desc id="desc">Web applications are exposed as MCP tools, which AI agents and language models use; the team works with them through LibreChat.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ec4899"/><stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .t { font-size: 18px; font-weight: 700; fill: #ffffff; }
+    .s { font-size: 13px; fill: #f1f5f9; }
+    .box { transform-box: fill-box; transform-origin: center; animation: lift 4s ease-in-out infinite; }
+    .b2 { animation-delay: .5s; } .b3 { animation-delay: 1s; } .b4 { animation-delay: 1.5s; }
+    .wire { stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 4 8; stroke-linecap: round; animation: flow 1.6s linear infinite; }
+    .dot { animation: travel 2.4s linear infinite; }
+    .dot.back { animation-direction: reverse; animation-delay: 1.2s; }
+    @keyframes lift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes flow { to { stroke-dashoffset: -24; } }
+    @keyframes travel { from { transform: translateX(0); opacity: 0; } 15%, 85% { opacity: 1; } to { transform: translateX(60px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .dot { opacity: 0; } }
+  </style>
+
+  <rect width="1000" height="190" rx="22" fill="url(#bg)"/>
+
+  <g>
+    <line class="wire" x1="230" y1="95" x2="290" y2="95"/>
+    <line class="wire" x1="470" y1="95" x2="530" y2="95"/>
+    <line class="wire" x1="710" y1="95" x2="770" y2="95"/>
+    <circle class="dot" cx="230" cy="95" r="5" fill="#67e8f9"/>
+    <circle class="dot back" cx="230" cy="95" r="4" fill="#c4b5fd"/>
+    <circle class="dot" cx="470" cy="95" r="5" fill="#c4b5fd"/>
+    <circle class="dot back" cx="470" cy="95" r="4" fill="#f9a8d4"/>
+    <circle class="dot" cx="710" cy="95" r="5" fill="#f9a8d4"/>
+    <circle class="dot back" cx="710" cy="95" r="4" fill="#fcd34d"/>
+  </g>
+
+  <g class="box">
+    <rect x="50" y="50" width="180" height="90" rx="16" fill="url(#c1)"/>
+    <text class="t" x="140" y="90">Web applications</text>
+    <text class="s" x="140" y="114">Next.js · React · Vue</text>
+  </g>
+  <g class="box b2">
+    <rect x="290" y="50" width="180" height="90" rx="16" fill="url(#c2)"/>
+    <text class="t" x="380" y="90">MCP tools</text>
+    <text class="s" x="380" y="114">app features for agents</text>
+  </g>
+  <g class="box b3">
+    <rect x="530" y="50" width="180" height="90" rx="16" fill="url(#c3)"/>
+    <text class="t" x="620" y="90">LLMs and agents</text>
+    <text class="s" x="620" y="114">form filling, assistance</text>
+  </g>
+  <g class="box b4">
+    <rect x="770" y="50" width="180" height="90" rx="16" fill="url(#c4)"/>
+    <text class="t" x="860" y="90">The team</text>
+    <text class="s" x="860" y="114">LibreChat · workshops</text>
+  </g>
+</svg>
