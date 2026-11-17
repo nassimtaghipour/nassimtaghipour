@@ -12,7 +12,7 @@
 
 I'm a senior full-stack web developer and AI engineer with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and today I develop the web applications of the Max Planck Institute for Intelligent Systems.
 
-Since 2025 I have also worked as an AI solutions developer alongside that role. I set up the team's AI assistant and build custom AI agents, train colleagues to use them, and connect our web applications directly to large language models (LLMs) so that end users get their work done faster.
+Since 2025 my role has also covered AI engineering. I rolled out LibreChat as the team's AI assistant, connected to models hosted on Azure and to self-hosted open-source models, and I build agents for it with multi-agent orchestration, RAG, MCP servers and actions, shaped by the tasks colleagues bring to me. I also connect our web applications directly to large language models (LLMs), for example to extract data from documents and fill in forms automatically, so that end users get their work done faster. I have exposed a web application as MCP tools that agents can use, and I ran a workshop to teach colleagues how to work with AI.
 
 ## AI work
 
