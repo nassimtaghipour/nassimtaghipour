@@ -39,7 +39,7 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 - Science Hub, the collaboration between Amazon and the Max Planck Society, with Next.js and GraphQL on a Ruby on Rails back end.
 - Web application for managing information on current employees and alumni.
 - Websites for the institute's 100-year anniversary and the AI Breakthrough Hub event.
-- Development and maintenance of further institute websites, including IMPRS-IS, ELLIS and CLS.
+- Development and maintenance of further institute websites, including [is.mpg.de](https://is.mpg.de), IMPRS-IS, ELLIS and CLS.
 
 </details>
 
