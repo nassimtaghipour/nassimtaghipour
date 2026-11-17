@@ -150,7 +150,9 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 
 ## Outside work
 
-Fitness, planting, socialising with friends, and hiking.
+<p align="center">
+  <img src="./assets/outside-work.svg" width="100%" alt="Outside work: fitness, planting, socialising with friends, and hiking">
+</p>
 
 ## Contact
 
