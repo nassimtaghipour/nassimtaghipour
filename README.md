@@ -20,11 +20,12 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
   <img src="./assets/ai-flow.svg" width="100%" alt="Web applications are exposed as MCP tools, which language models and agents use; the team works with them through LibreChat and workshops">
 </p>
 
-- **LibreChat for the team:** set up and rolled out LibreChat as the team's AI assistant, connected to models hosted on Azure and to in-house models.
-- **Agents and orchestration:** built agents and agent orchestration in LibreChat, extended with MCP servers and actions. I talk with colleagues about their recurring tasks and build new agents for them.
+- **LibreChat for the team:** set up and rolled out LibreChat as the team's AI assistant, connected to models hosted on Azure and to self-hosted open-source models.
+- **Agents and orchestration:** built agents and multi-agent orchestration in LibreChat, extended with MCP servers and actions. I talk with colleagues about their recurring tasks and build new agents for them.
 - **RAG:** set up retrieval-augmented generation for several agents, so their answers draw on a knowledge base and not only on the model.
 - **AI features in web apps:** connected our web applications to LLMs for automation and AI-based features. One of them extracts data from documents and fills in forms automatically.
 - **Web MCP:** exposing a web application's functionality as Model Context Protocol tools so AI agents can use it.
+- **Techniques I work with:** prompt engineering and system prompts, tool and function calling, agent memory and context management, streaming responses in the UI, document parsing and OCR, fine-tuning, and usage and cost monitoring.
 - **AI-assisted development:** Claude Code and GitHub Copilot are part of my daily development work.
 - **Workshop:** ran a workshop that taught colleagues how to work with AI.
 
@@ -92,6 +93,15 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 ![LibreChat](https://img.shields.io/badge/LibreChat-0ea5e9?style=for-the-badge)
 ![AI agents](https://img.shields.io/badge/AI_agents-ec4899?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG-f59e0b?style=for-the-badge)
+![Prompt engineering](https://img.shields.io/badge/Prompt_engineering-6366f1?style=for-the-badge)
+![Tool calling](https://img.shields.io/badge/Tool_calling-0d9488?style=for-the-badge)
+![Multi-agent orchestration](https://img.shields.io/badge/Multi--agent_orchestration-db2777?style=for-the-badge)
+![Agent memory](https://img.shields.io/badge/Agent_memory-7c3aed?style=for-the-badge)
+![Streaming UI](https://img.shields.io/badge/Streaming_UI-0284c7?style=for-the-badge)
+![Document parsing and OCR](https://img.shields.io/badge/Document_parsing_%2B_OCR-ea580c?style=for-the-badge)
+![Self-hosted LLMs](https://img.shields.io/badge/Self--hosted_LLMs-16a34a?style=for-the-badge)
+![Fine-tuning](https://img.shields.io/badge/Fine--tuning-be123c?style=for-the-badge)
+![Usage and cost monitoring](https://img.shields.io/badge/Usage_%2B_cost_monitoring-475569?style=for-the-badge)
 ![Azure models](https://img.shields.io/badge/Azure_models-0078D4?style=for-the-badge)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-24292F?style=for-the-badge&logo=githubcopilot&logoColor=white)
