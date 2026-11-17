@@ -147,4 +147,5 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/nassimtaghipour)
+- **Email:** [nassim_taghipoor@yahoo.com](mailto:nassim_taghipoor@yahoo.com)
+- **LinkedIn:** [nassimtaghipour](https://www.linkedin.com/in/nassimtaghipour)
