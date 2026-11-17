@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Nassim Taghipour: senior full-stack and AI engineer working on AI integrations with LLMs and MCP, based in Tübingen, Germany">
+  <img src="./assets/header.svg" width="100%" alt="Nassim Taghipour: senior full-stack web developer and AI engineer working on AI integrations with LLMs and MCP, based in Tübingen, Germany">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ## About me
 
-I'm a senior full-stack and AI engineer with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and today I develop the web applications of the Max Planck Institute for Intelligent Systems.
+I'm a senior full-stack web developer and AI engineer with an MSc in Software Engineering. I have built web applications since 2010 for research, banking, payments and telecommunications, and today I develop the web applications of the Max Planck Institute for Intelligent Systems.
 
 Since 2025 I have also worked as an AI solutions developer alongside that role. I set up the team's AI assistant and build custom AI agents, train colleagues to use them, and connect our web applications directly to large language models (LLMs) so that end users get their work done faster.
 

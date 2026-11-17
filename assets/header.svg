@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
   <title id="title">Nassim Taghipour</title>
-  <desc id="desc">Senior full-stack and AI engineer working on AI integrations with LLMs and MCP, based in Tübingen, Germany.</desc>
+  <desc id="desc">Senior full-stack web developer and AI engineer working on AI integrations with LLMs and MCP, based in Tübingen, Germany.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop class="bg1" offset="0" stop-color="#0f172a"/>
@@ -107,7 +107,7 @@
     <text class="name" x="54" y="140">Nassim Taghipour</text>
 
     <rect class="bar" x="56" y="165" width="4" height="26" rx="2"/>
-    <text class="sub s1" x="72" y="186">Senior Full-Stack &amp; AI Engineer</text>
+    <text class="sub s1" x="72" y="186">Senior Full-Stack Web Developer &amp; AI Engineer</text>
     <text class="sub s2" x="72" y="186">AI integrations with LLMs and MCP</text>
     <text class="sub s3" x="72" y="186">LibreChat, team agents and AI workshops</text>
 
