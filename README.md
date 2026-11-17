@@ -42,7 +42,7 @@ Since 2025 my role has also covered AI engineering. I rolled out LibreChat as th
 - Science Hub, the collaboration between Amazon and the Max Planck Society, with Next.js and GraphQL on a Ruby on Rails back end.
 - Web application for managing information on current employees and alumni.
 - Websites for the institute's 100-year anniversary and the AI Breakthrough Hub event.
-- Development and maintenance of further institute websites, including [is.mpg.de](https://is.mpg.de), IMPRS-IS, ELLIS and CLS.
+- Development and maintenance of further institute websites, including [MPI-IS](https://is.mpg.de), IMPRS-IS, ELLIS and CLS.
 
 </details>
 

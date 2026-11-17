@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
   <title id="title">Career timeline</title>
-  <desc id="desc">2010 Pars Fanavaran, 2013 Tehran Institute of Technology, 2016 MobinNet Telecom, 2018 Behpardakht Mellat, 2019 DFA Corporation, 2020 Max Planck Institute for Intelligent Systems, now AI integrations.</desc>
+  <desc id="desc">2010 Pars Fanavaran, 2013 Tehran Institute of Technology, 2016 MobinNet Telecom, 2018 Behpardakht Mellat, 2019 DFA Corporation, 2020 Max Planck Institute for Intelligent Systems, now AI Engineer.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0f172a"/>
@@ -87,7 +87,7 @@
   </g>
   <g>
     <text class="y" x="915" y="175" fill="#fbbf24">Now</text>
-    <text class="o" x="915" y="196">AI integrations</text>
+    <text class="o" x="915" y="196">AI Engineer</text>
     <text class="r" x="915" y="214">LLMs · MCP · agents</text>
   </g>
 </svg>
