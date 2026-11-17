@@ -150,7 +150,7 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 
 ## Outside work
 
-Hiking, reading, and nature and tree planting.
+Fitness, planting, socialising with friends, and hiking.
 
 ## Contact
 
