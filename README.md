@@ -128,15 +128,6 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 ![TDD](https://img.shields.io/badge/TDD-16a34a?style=for-the-badge)
 ![Responsive design](https://img.shields.io/badge/Responsive_design-db2777?style=for-the-badge)
 
-## Selected projects
-
-| Project | What it is |
-| --- | --- |
-| [LDAP-Authentication-NextAuth](https://github.com/nassimtaghipour/LDAP-Authentication-NextAuth) | LDAP login for Next.js with NextAuth and ldapjs |
-| [Negotiation-React-App](https://github.com/nassimtaghipour/Negotiation-React-App) | React app with Jest and Enzyme unit tests |
-| [Gallery-images-Vuejs](https://github.com/nassimtaghipour/Gallery-images-Vuejs) | Image gallery with filtering and sorting in Vue and Vuex |
-| [Dynamic-Form-Vuejs](https://github.com/nassimtaghipour/Dynamic-Form-Vuejs) | Forms generated from JSON in Vue |
-
 ## Education and publication
 
 - **MSc in Software Engineering**, Azad University, 2013–2015
