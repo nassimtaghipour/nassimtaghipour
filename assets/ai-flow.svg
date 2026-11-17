@@ -61,7 +61,7 @@
   <g class="box b3">
     <rect x="530" y="50" width="180" height="90" rx="16" fill="url(#c3)"/>
     <text class="t" x="620" y="90">LLMs and agents</text>
-    <text class="s" x="620" y="114">form filling, assistance</text>
+    <text class="s" x="620" y="114">extraction, form filling</text>
   </g>
   <g class="box b4">
     <rect x="770" y="50" width="180" height="90" rx="16" fill="url(#c4)"/>
