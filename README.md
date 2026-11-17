@@ -22,6 +22,7 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 
 - **LibreChat for the team:** set up and rolled out LibreChat as the team's AI assistant, connected to models hosted on Azure and to in-house models.
 - **Agents and orchestration:** built agents and agent orchestration in LibreChat, extended with MCP servers and actions. I talk with colleagues about their recurring tasks and build new agents for them.
+- **RAG:** set up retrieval-augmented generation for several agents, so their answers draw on a knowledge base and not only on the model.
 - **AI features in web apps:** connected our web applications to LLMs for automation and AI-based features. One of them extracts data from documents and fills in forms automatically.
 - **Web MCP:** exposing a web application's functionality as Model Context Protocol tools so AI agents can use it.
 - **AI-assisted development:** Claude Code and GitHub Copilot are part of my daily development work.
@@ -90,6 +91,7 @@ Since 2025 I have also worked as an AI solutions developer alongside that role. 
 ![MCP](https://img.shields.io/badge/MCP-111827?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
 ![LibreChat](https://img.shields.io/badge/LibreChat-0ea5e9?style=for-the-badge)
 ![AI agents](https://img.shields.io/badge/AI_agents-ec4899?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-f59e0b?style=for-the-badge)
 ![Azure models](https://img.shields.io/badge/Azure_models-0078D4?style=for-the-badge)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-24292F?style=for-the-badge&logo=githubcopilot&logoColor=white)
